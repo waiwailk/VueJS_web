@@ -1,0 +1,3 @@
+https://www.ericsdevblog.com/posts/vuejs-for-beginners-1/
+https://vueschool.io/lessons/vue-fundamentals-capi-dynamic-css-classes-with-vu://vueschool.io/lessons/vue-fundamentals-capi-dynamic-css-classes-with-vue
+
