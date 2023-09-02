@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vue 3 Tutorial</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+    <body>
+        <h1>hello Vue 3</h1>
+        <div id="app">
+            {{text}}
+            {{ nickname }}
+            {{ myname }}
+            {{ myimage }} 
+            {{ person.givename }}   
+            
+            <i class="bi bi-gender-male" 
+                    v-if="person.gender == 'M'"></i>
+            <i class="bi bi-gender-female"
+                    v-else></i>
+        </div>
+        <script src="js/vue3_data_onewaybinding.js"></script>
+    </body>
+    <!-- v-else-if-->
+</html>

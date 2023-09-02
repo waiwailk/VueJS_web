@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vue 3 Tutorial</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+    <body>
+        <h1>hello Vue 3</h1>
+        <div id="app">
+            <p>
+                <u1>
+                    <li v-for="eachStudent in students">
+                        {{eachStudent.name}}
+                    </li>
+                </u1>
+            </p>
+            <p>
+                <u1>
+                    <table border="1">
+                    <tr v-for="item in people">
+                        <td>{{ item.name }}</td> 
+                        <td> {{ item.gender }}</td> 
+                        <td> {{item.cash}}
+                            </td>
+                            <td><button type="button" @click="item.cash++">Pay</button></td> 
+                            <td><button type="button" @click="clickAlert">Alert</button></td> 
+                            <td><button type="button" @click="decreaseMe(item)">Get</button></td> 
+                            <!--
+                            <script>
+                                $('#button').on('click', function() {
+                                    alert('hahah')
+                                });
+                            </script>
+                                -->
+                    </tr>
+                </table>
+                </u1>
+            </p>
+
+        </div>
+        <script src="js/vue3_data_event.js"></script>
+    </b--dy>
+</html

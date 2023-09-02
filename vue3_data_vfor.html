@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vue 3 Tutorial</title>
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+    <body>
+        <h1>hello Vue 3</h1>
+        <div id="app">
+            <p>
+                <u1>
+                    <li v-for="eachStudent in students">
+                        {{eachStudent.name}}
+                    </li>
+                </u1>
+            </p>
+            <p>
+                <u1>
+                    <table border="1">
+                    <tr v-for="item in people">
+                     <td>{{ item.name }} </td> <td> {{ item.gender }} </td> 
+                    </tr>
+                </table>
+                </u1>
+            </p>
+
+        </div>
+        <script src="js/vue3_data_vfor.js"></script>
+    </body>
+</html>
